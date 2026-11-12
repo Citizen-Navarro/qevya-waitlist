@@ -454,10 +454,10 @@
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.119.0"></script>
   <script>
     const SUPABASE_URL = 'https://yxmgazixxvupbyijjwry.supabase.co';
-    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Inl4bWdheml4eHZ1cGJ5aWpqd3J5Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzI3NDA4NzUsImV4cCI6MjA4ODMxNjg3NX0.CDu4MOfFbhhHjVFAJTaLbAlAO3oiTC2u_dBnEVpEq-s';
+    const SUPABASE_PUBLISHABLE_KEY = 'sb_publishable_b0w81M-pUXwlNYOqBDkqGA_S3Nabfd3';
 
     const { createClient } = supabase;
-    const client = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+    const client = createClient(SUPABASE_URL, SUPABASE_PUBLISHABLE_KEY);
 
     const form = document.getElementById('waitlistForm');
     const emailInput = document.getElementById('emailInput');
